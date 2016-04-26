@@ -1,0 +1,19 @@
+The switches in parts 5 and 6 use the following settings to display the word "hello" for testing purposes
+
+SW0:  1
+SW1:  1
+SW2:  0
+SW3:  0
+SW4:  1
+SW5:  0
+SW6:  0
+SW7:  1
+SW8:  0
+SW9:  1
+SW10: 0
+SW11: 0
+SW12: 0
+SW13: 0
+SW14: 0
+
+The remaining switches [17:15] are used to rotate the displayed letters.

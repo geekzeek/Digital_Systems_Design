@@ -1,0 +1,40 @@
+|Part4
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+LEDR[0] <= SW[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= SW[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[6] <= HexHELO:H.port1
+HEX0[5] <= HexHELO:H.port1
+HEX0[4] <= HexHELO:H.port1
+HEX0[3] <= HexHELO:H.port1
+HEX0[2] <= HexHELO:H.port1
+HEX0[1] <= HexHELO:H.port1
+HEX0[0] <= HexHELO:H.port1
+
+
+|Part4|HexHELO:H
+c[0] => hex.IN0
+c[0] => hex.IN0
+c[0] => hex.IN0
+c[0] => hex.IN0
+c[1] => hex.IN1
+c[1] => hex.IN1
+c[1] => hex.IN1
+c[1] => hex.IN0
+c[2] => hex[4].DATAIN
+c[2] => hex[5].DATAIN
+c[2] => hex.IN1
+c[2] => hex.IN1
+c[2] => hex.IN1
+c[2] => hex.IN1
+hex[6] <= hex.DB_MAX_OUTPUT_PORT_TYPE
+hex[5] <= c[2].DB_MAX_OUTPUT_PORT_TYPE
+hex[4] <= c[2].DB_MAX_OUTPUT_PORT_TYPE
+hex[3] <= hex.DB_MAX_OUTPUT_PORT_TYPE
+hex[2] <= hex.DB_MAX_OUTPUT_PORT_TYPE
+hex[1] <= hex.DB_MAX_OUTPUT_PORT_TYPE
+hex[0] <= hex.DB_MAX_OUTPUT_PORT_TYPE
+
+

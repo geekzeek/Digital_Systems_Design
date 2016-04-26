@@ -1,0 +1,51 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Zeeshan/Google Drive/S16/TCES 330/HW2/Part4
+vBCDAdder
+!s110 1461125151
+!i10b 1
+!s100 jTMLNUDU?CPgMXPk[D?6`2
+I>`>W;jbbmkPcWEo3;5Jaa3
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1461097698
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW2/Part4/BCDAdder.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/HW2/Part4/BCDAdder.v
+L0 5
+Z2 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1461125151.039000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW2/Part4/BCDAdder.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW2/Part4/BCDAdder.v|
+!i113 1
+Z3 o-work work
+n@b@c@d@adder
+vtest_adder
+!s110 1461131307
+!i10b 1
+!s100 mzI4ZI7:FP><CXQB_NRZj1
+If@?11n2Ngoz>N04:<W5Re1
+R1
+R0
+w1461126719
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW2/Part4/test_adder.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/HW2/Part4/test_adder.v
+L0 7
+R2
+r1
+!s85 0
+31
+!s108 1461131307.476000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW2/Part4/test_adder.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW2/Part4/test_adder.v|
+!i113 1
+R3

@@ -1,0 +1,16 @@
+module toDecimal(s, M0, M1);
+	input [3:0]s;
+	output [3:0]M0, [3:0]M1;
+	
+	always @ (s)
+		if(s <= b'1001)
+		{
+			M0 = s;
+			M1 = 7'b1111111;
+		}
+		else
+		{
+			M0 = s - 4'b1010;
+			M1 = 7'b1001111;
+		}
+endmodule
