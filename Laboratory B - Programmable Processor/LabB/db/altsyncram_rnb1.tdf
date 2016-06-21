@@ -1,0 +1,41 @@
+--altsyncram ADDRESS_ACLR_A="I" CBX_DECLARE_ALL_CONNECTED_PORTS="OFF" CLOCK_ENABLE_INPUT_A="BYPASS" CLOCK_ENABLE_OUTPUT_A="BYPASS" CYCLONEII_M4K_COMPATIBILITY="ON" DEVICE_FAMILY="Cyclone IV E" ENABLE_RUNTIME_MOD="YES" INIT_FILE="Instructions.mif" INSTANCE_NAME="I" LOW_POWER_MODE="AUTO" NUMWORDS_A=128 OPERATION_MODE="ROM" OUTDATA_ACLR_A="I" OUTDATA_REG_A="UNREGISTERED" WIDTH_A=16 WIDTH_BYTEENA_A=1 WIDTHAD_A=7 address_a clock0 q_a CARRY_CHAIN="MANUAL" CARRY_CHAIN_LENGTH=48
+--VERSION_BEGIN 15.0 cbx_altsyncram 2015:04:22:18:04:07:SJ cbx_cycloneii 2015:04:22:18:04:07:SJ cbx_lpm_add_sub 2015:04:22:18:04:07:SJ cbx_lpm_compare 2015:04:22:18:04:07:SJ cbx_lpm_decode 2015:04:22:18:04:08:SJ cbx_lpm_mux 2015:04:22:18:04:08:SJ cbx_mgl 2015:04:22:18:06:50:SJ cbx_stratix 2015:04:22:18:04:08:SJ cbx_stratixii 2015:04:22:18:04:08:SJ cbx_stratixiii 2015:04:22:18:04:08:SJ cbx_stratixv 2015:04:22:18:04:08:SJ cbx_util_mgl 2015:04:22:18:04:08:SJ  VERSION_END
+
+
+-- Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+--  Your use of Altera Corporation's design tools, logic functions 
+--  and other software and tools, and its AMPP partner logic 
+--  functions, and any output files from any of the foregoing 
+--  (including device programming or simulation files), and any 
+--  associated documentation or information are expressly subject 
+--  to the terms and conditions of the Altera Program License 
+--  Subscription Agreement, the Altera Quartus II License Agreement,
+--  the Altera MegaCore Function License Agreement, or other 
+--  applicable license agreement, including, without limitation, 
+--  that your use is for the sole purpose of programming logic 
+--  devices manufactured by Altera and sold by Altera or its 
+--  authorized distributors.  Please refer to the applicable 
+--  agreement for further details.
+
+
+
+--synthesis_resources = 
+SUBDESIGN altsyncram_rnb1
+( 
+	address_a[6..0]	:	input;
+	clock0	:	input;
+	q_a[15..0]	:	output;
+) 
+
+BEGIN 
+	ASSERT (0) 
+	REPORT "MGL_INTERNAL_WARNING: ( The parameter value is not one of the pre-specified values in the value list.) altsyncram|ADDRESS_ACLR_A The value assigned is I and the valid value list is UNUSED|CLEAR0|NONE"
+	SEVERITY WARNING;
+	ASSERT (0) 
+	REPORT "MGL_INTERNAL_WARNING: ( The parameter value is not one of the pre-specified values in the value list.) altsyncram|OUTDATA_ACLR_A The value assigned is I and the valid value list is NONE|CLEAR0|CLEAR1"
+	SEVERITY WARNING;
+	ASSERT (0) 
+	REPORT "Parameter error: parameter OUTDATA_ACLR_A of altsyncram megafunction set to value I is illegal -- legal values for parameter OUTDATA_ACLR_A are NONE|CLEAR0|CLEAR1"
+	SEVERITY ERROR;
+END;
+--ERROR FILE

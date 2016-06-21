@@ -1,0 +1,12 @@
+module SystemControl(Clk, Reset, Addr, X);
+	
+	input Clk;
+	input Reset;
+	output [7:0]Addr;
+	output [7:0]X;
+	
+	AddressGen(Clk, Reset, Addr);
+
+	
+endmodule
+	

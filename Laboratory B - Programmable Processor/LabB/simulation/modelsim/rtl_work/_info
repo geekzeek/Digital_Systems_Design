@@ -1,0 +1,296 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/simulation/modelsim
+vALU74381
+Z1 !s110 1465156734
+!i10b 1
+!s100 <z:fI7>AAZeBc]@Q8[19U1
+I[LXMA[Um^3TEUB9hV3gT:3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1464057606
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/ALU74381.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/ALU74381.v
+L0 18
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1465156734.774000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/ALU74381.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB|C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/ALU74381.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB}
+n@a@l@u74381
+vButtonSync
+R1
+!i10b 1
+!s100 nIIcnAPDR5Y=ILX7WEN7H1
+I4NBWNonBnO3DLzckL[ibm1
+R2
+R0
+w1464034794
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/ButtonSync.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/ButtonSync.v
+L0 19
+R3
+r1
+!s85 0
+31
+!s108 1465156734.486000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/ButtonSync.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB|C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/ButtonSync.v|
+!i113 1
+R4
+R5
+n@button@sync
+vController
+Z6 !s110 1465156735
+!i10b 1
+!s100 8ldO;2AB2IKkkBIglF=9X2
+I]zj[9Ci6]W6mGVOX5>:XJ3
+R2
+R0
+w1464205212
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/Controller.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/Controller.v
+L0 9
+R3
+r1
+!s85 0
+31
+!s108 1465156735.781000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/Controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB|C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/Controller.v|
+!i113 1
+R4
+R5
+n@controller
+vDatapath
+!s110 1465156736
+!i10b 1
+!s100 ;Q<<Y=I?1QR5ncPSIcT5]3
+I>^mMAj1[=5YCRjH;mM4;Y1
+R2
+R0
+w1464202774
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/Datapath.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/Datapath.v
+L0 9
+R3
+r1
+!s85 0
+31
+!s108 1465156736.172000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/Datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB|C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/Datapath.v|
+!i113 1
+R4
+R5
+n@datapath
+vDataRAM
+Z7 !s110 1465156737
+!i10b 1
+!s100 @`azYE[`zVM9YQgdcH4W`2
+I2C?DZF0Wne0bGi=o^HOUW0
+R2
+R0
+w1464042704
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/DataRAM.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/DataRAM.v
+Z8 L0 40
+R3
+r1
+!s85 0
+31
+!s108 1465156737.759000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/DataRAM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB|C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/DataRAM.v|
+!i113 1
+R4
+R5
+n@data@r@a@m
+vHexDis
+!s110 1465156733
+!i10b 1
+!s100 a@FFO8ISbl]>T0NeU3>`e3
+IoUcbLKL0TfdA7LSFJkM8[3
+R2
+R0
+w1461617182
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/HexDis.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/HexDis.v
+L0 10
+R3
+r1
+!s85 0
+31
+!s108 1465156733.831000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/HexDis.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB|C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/HexDis.v|
+!i113 1
+R4
+R5
+n@hex@dis
+vInstrROM
+R7
+!i10b 1
+!s100 OhiDRLOMFjjQFaMlCkmOD3
+I^hW<ZI?R?c7MA<B;G?3mQ1
+R2
+R0
+w1464205828
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/InstrROM.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/InstrROM.v
+R8
+R3
+r1
+!s85 0
+31
+!s108 1465156737.364000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/InstrROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB|C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/InstrROM.v|
+!i113 1
+R4
+R5
+n@instr@r@o@m
+vKeyFilter
+Z9 !s110 1465156732
+!i10b 1
+!s100 G>0@L8@U4Ei0[>CIS>?cI3
+IWHH7JQ:GhB>C54Kc7[M6a2
+R2
+R0
+w1464034804
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/KeyFilter.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/KeyFilter.v
+L0 16
+R3
+r1
+!s85 0
+31
+!s108 1465156732.726000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/KeyFilter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB|C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/KeyFilter.v|
+!i113 1
+R4
+R5
+n@key@filter
+vLabB
+R6
+!i10b 1
+!s100 6;HWEPCRB<Cc9n7^4?D_l0
+IebPPgNNjhgL3=PFIFWHZP0
+R2
+R0
+w1464204690
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/LabB.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/LabB.v
+L0 9
+R3
+r1
+!s85 0
+31
+!s108 1465156735.071000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/LabB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB|C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/LabB.v|
+!i113 1
+R4
+R5
+n@lab@b
+vMUX16_8_to_1
+R9
+!i10b 1
+!s100 FBhUdnBDBY:b];efn[Tec3
+IP4>PGMgm2[ob33La?zfdK1
+R2
+R0
+w1464045718
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/MUX16_8_to_1.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/MUX16_8_to_1.v
+L0 7
+R3
+r1
+!s85 0
+31
+!s108 1465156732.342000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/MUX16_8_to_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB|C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/MUX16_8_to_1.v|
+!i113 1
+R4
+R5
+n@m@u@x16_8_to_1
+vProcessor
+R6
+!i10b 1
+!s100 kYln<j9Go=Qa2obcW<1483
+IlQmHT?lZ?4H6Ug?NjR2g80
+R2
+R0
+w1464204478
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/Processor.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/Processor.v
+L0 9
+R3
+r1
+!s85 0
+31
+!s108 1465156735.424000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/Processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB|C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/Processor.v|
+!i113 1
+R4
+R5
+n@processor
+vRegisterFile
+!s110 1465156738
+!i10b 1
+!s100 6E_?ha@X7H9`^OdHVmLk90
+Ik?;7O1A5S:FPo50DM9nkm3
+R2
+R0
+w1464043040
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/RegisterFile.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/RegisterFile.v
+R8
+R3
+r1
+!s85 0
+31
+!s108 1465156738.248000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/RegisterFile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB|C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/RegisterFile.v|
+!i113 1
+R4
+R5
+n@register@file
+vtestProcessor
+!s110 1465156739
+!i10b 1
+!s100 Sz1U]kBzQKV8R=ez<n@zo2
+IOhk49;^PN<E2SYP`Uee8`3
+R2
+R0
+w1464205480
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/testProcessor.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/testProcessor.v
+L0 7
+R3
+r1
+!s85 0
+31
+!s108 1465156739.549000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/testProcessor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB|C:/Users/Zeeshan/Google Drive/S16/TCES 330/Laboratory B/LabB/testProcessor.v|
+!i113 1
+R4
+R5
+ntest@processor

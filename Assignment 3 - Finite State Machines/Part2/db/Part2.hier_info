@@ -1,0 +1,37 @@
+|Part2
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+KEY[0] => KEY[0].IN1
+LEDR[0] <= Part2FSM:FSM.port3
+LEDR[1] <= Part2FSM:FSM.port3
+LEDR[2] <= Part2FSM:FSM.port3
+LEDR[3] <= Part2FSM:FSM.port3
+LEDG[0] <= Part2FSM:FSM.port4
+
+
+|Part2|Part2FSM:FSM
+w => Selector2.IN2
+w => Y_D.DATAB
+w => Y_D.DATAB
+w => Selector3.IN1
+w => Selector0.IN1
+w => Y_D.DATAB
+w => Y_D.DATAB
+w => Selector1.IN1
+reset => Y_D.B.OUTPUTSELECT
+reset => Y_D.C.OUTPUTSELECT
+reset => Y_D.D.OUTPUTSELECT
+reset => Y_D.E.OUTPUTSELECT
+reset => Y_D.F.OUTPUTSELECT
+reset => Y_D.G.OUTPUTSELECT
+reset => Y_D.H.OUTPUTSELECT
+reset => Y_D.I.OUTPUTSELECT
+reset => Y_Q.A.DATAIN
+clock => Y_Q~1.DATAIN
+state[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+state[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+state[2] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+state[3] <= state[3].DB_MAX_OUTPUT_PORT_TYPE
+z <= always0.DB_MAX_OUTPUT_PORT_TYPE
+
+

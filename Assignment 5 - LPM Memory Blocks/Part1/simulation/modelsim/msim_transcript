@@ -1,0 +1,121 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do Part1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Zeeshan/Google\ Drive/S16/TCES\ 330/HW5/Part1 {C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/BCDto7Seg.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 19:09:45 on May 22,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1" C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/BCDto7Seg.v 
+# -- Compiling module BCDto7Seg
+# 
+# Top level modules:
+# 	BCDto7Seg
+# End time: 19:09:46 on May 22,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Zeeshan/Google\ Drive/S16/TCES\ 330/HW5/Part1 {C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/Part1.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 19:09:46 on May 22,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1" C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/Part1.v 
+# -- Compiling module Part1
+# 
+# Top level modules:
+# 	Part1
+# End time: 19:09:46 on May 22,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Zeeshan/Google\ Drive/S16/TCES\ 330/HW5/Part1 {C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/Part1ROM.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 19:09:46 on May 22,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1" C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/Part1ROM.v 
+# -- Compiling module Part1ROM
+# 
+# Top level modules:
+# 	Part1ROM
+# End time: 19:09:46 on May 22,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Zeeshan/Google\ Drive/S16/TCES\ 330/HW5/Part1 {C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/SystemControl.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 19:09:46 on May 22,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1" C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/SystemControl.v 
+# -- Compiling module SystemControl
+# 
+# Top level modules:
+# 	SystemControl
+# End time: 19:09:46 on May 22,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Zeeshan/Google\ Drive/S16/TCES\ 330/HW5/Part1 {C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/AddressGen.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 19:09:46 on May 22,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1" C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/AddressGen.v 
+# -- Compiling module AddressGen
+# 
+# Top level modules:
+# 	AddressGen
+# End time: 19:09:46 on May 22,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Zeeshan/Google\ Drive/S16/TCES\ 330/HW5/Part1 {C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/PulseGen.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 19:09:46 on May 22,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1" C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/PulseGen.v 
+# -- Compiling module PulseGen
+# 
+# Top level modules:
+# 	PulseGen
+# End time: 19:09:46 on May 22,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Zeeshan/Google\ Drive/S16/TCES\ 330/HW5/Part1 {C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/TestSystemControl.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 19:09:46 on May 22,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1" C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/TestSystemControl.v 
+# -- Compiling module TestSystemControl
+# 
+# Top level modules:
+# 	TestSystemControl
+# End time: 19:09:46 on May 22,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  TestSystemControl
+# vsim -gui "+altera" -l msim_transcript -do "Part1_run_msim_rtl_verilog.do" 
+# Start time: 19:09:46 on May 22,2016
+# Loading work.TestSystemControl
+# Loading work.SystemControl
+# Loading work.AddressGen
+# Loading work.PulseGen
+# Loading work.Part1ROM
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# System time: 0  Address = 00  Memory = 00
+# System time: 230000010000  Address = 01  Memory = 00
+# System time: 230000030000  Address = 01  Memory = 01
+# System time: 460000010000  Address = 02  Memory = 01
+# System time: 460000030000  Address = 02  Memory = 02
+# System time: 690000010000  Address = 03  Memory = 02
+# System time: 690000030000  Address = 03  Memory = 03
+# System time: 690000050000  Address = 00  Memory = 03
+# System time: 690000070000  Address = 00  Memory = 00
+# ** Note: $stop    : C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/TestSystemControl.v(31)
+#    Time: 690000240 ns  Iteration: 0  Instance: /TestSystemControl
+# Break in Module TestSystemControl at C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/TestSystemControl.v line 31
+# Simulation Breakpoint: Break in Module TestSystemControl at C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/TestSystemControl.v line 31
+# MACRO ./Part1_run_msim_rtl_verilog.do PAUSED at line 22
+# End time: 19:27:41 on May 22,2016, Elapsed time: 0:17:55
+# Errors: 0, Warnings: 0

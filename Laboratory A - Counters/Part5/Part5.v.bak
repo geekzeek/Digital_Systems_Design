@@ -1,0 +1,79 @@
+
+module Part5 (CLOCK_50, SW, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7);
+	input [1:0] SW; // toggle switches
+
+	// Output displays
+	output [0:6] HEX0, HEX1, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7;
+	
+	// Mux outputs
+	wire [2:0] M0, M1, M2, M3, M4, M5, M6, M7;
+	wire [2:0] CONTROL;
+	
+	// 3w 5 to 1 muxes with rotating switch assignments
+	// 'b111 is used to denote a blank space
+	Mux3w_8to1 Mu0 (SW[2:0], 'b111, 'b111, 'b111, SW[14:12], SW[11:9], SW[8:6], SW[5:3], CONTROL, M0);
+	Mux3w_8to1 Mu1 (SW[5:3], SW[2:0], 'b111, 'b111, 'b111, SW[14:12], SW[11:9], SW[8:6], CONTROL, M1);
+	Mux3w_8to1 Mu2 (SW[8:6], SW[5:3], SW[2:0], 'b111, 'b111, 'b111, SW[14:12], SW[11:9], CONTROL, M2);
+	Mux3w_8to1 Mu3 (SW[11:9], SW[8:6], SW[5:3], SW[2:0], 'b111, 'b111, 'b111, SW[14:12], CONTROL, M3);
+	Mux3w_8to1 Mu4 (SW[14:12], SW[11:9], SW[8:6], SW[5:3], SW[2:0], 'b111, 'b111, 'b111, CONTROL, M4);
+	Mux3w_8to1 Mu5 ('b111, SW[14:12], SW[11:9], SW[8:6], SW[5:3], SW[2:0], 'b111, 'b111, CONTROL, M5);
+	Mux3w_8to1 Mu6 ('b111, 'b111, SW[14:12], SW[11:9], SW[8:6], SW[5:3], SW[2:0], 'b111, CONTROL, M6);
+	Mux3w_8to1 Mu7 ('b111, 'b111, 'b111, SW[14:12], SW[11:9], SW[8:6], SW[5:3], SW[2:0], CONTROL, M7);
+	
+	// 7 seg decoders for all 5 outputs
+	HexHELO H0 (M0, HEX0);
+	HexHELO H1 (M1, HEX1);
+	HexHELO H2 (M2, HEX2);
+	HexHELO H3 (M3, HEX3);
+	HexHELO H4 (M4, HEX4);
+	HexHELO H5 (M5, HEX5);
+	HexHELO H6 (M6, HEX6);
+	HexHELO H7 (M7, HEX7);
+endmodule
+
+// implements a 3-bit wide 5-to-1 multiplexer
+module Mux3w_8to1( A, B, C, D, E, F, G, H, S, M ); 
+	input [2:0] A, B, C, D, E, F, G, H;  // inputs 
+	input [2:0] S;          // select lines 
+	output [2:0] M;         // the output
+	// the Mux: 
+	Mux8_1 Mux0( A[0], B[0], C[0], D[0], E[0], F[0], G[0], H[0], S, M[0] ); 
+	Mux8_1 Mux1( A[1], B[1], C[1], D[1], E[1], F[1], G[1], H[1], S, M[1] ); 
+	Mux8_1 Mux2( A[2], B[2], C[2], D[2], E[2], F[2], G[2], H[2], S, M[2] ); 
+endmodule
+
+module Mux8_1( A, B, C, D, E, F, G, H, S, M ); 
+	input A, B, C, D, E, F, G, H;   // the input lines 
+	input [2:0] S;         // the select lines 
+	output M;
+	wire F1, F2, F3, F4, F5, F6;
+
+	Mux2_1 Mux1( A,  B,  S[0], F1 ); 
+	Mux2_1 Mux2( C,  D,  S[0], F2 ); 
+	Mux2_1 Mux3( E,  F,  S[0], F3 ); 
+	Mux2_1 Mux4( G,  H,  S[0], F4 );
+	Mux2_1 Mux5( F1,  F2,  S[1], F5 );
+	Mux2_1 Mux6( F3,  F4,  S[1], F6 );
+	Mux2_1 Mux7( F5,  F6,  S[2],  M );
+endmodule
+
+module Mux2_1( X, Y, S, F ); 
+	input X, Y; // input lines 
+	input S;     // select line 
+	output F;    // output
+	assign F = (~S & X) | (S & Y); 
+endmodule
+
+// implements a 7-segment decoder for H, E, L, O, and ‘blank’
+module HexHELO( c,  hex);
+	input [2:0]c;
+	output [0:6]hex;
+	
+	assign hex[0] = ~(c[0] & ~c[2]);
+	assign hex[1] = ~(((c[0] & c[1]) | (~c[0] & ~c[1])) & ~c[2]);
+	assign hex[2] = ~(((c[0] & c[1]) | (~c[0] & ~c[1])) & ~c[2]);
+	assign hex[3] = ~((c[0] | c[1]) & ~c[2]);
+	assign hex[4] = ~(~c[2]);
+	assign hex[5] = ~(~c[2]);
+	assign hex[6] = ~(~c[1] & ~c[2]);
+endmodule

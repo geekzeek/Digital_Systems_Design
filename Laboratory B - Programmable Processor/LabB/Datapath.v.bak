@@ -1,0 +1,10 @@
+/*
+* TCES 330
+* 5/23/2016
+* Max Kulish, Wayvern McCormick, Zeeshan Karim
+* Lab B
+*/
+
+module Datapath();
+	
+endmodule

@@ -1,0 +1,17 @@
+module count4b(Clk, En, R, Q);
+	
+	input En, Clk, R;
+	output reg [3:0]Q;
+	
+	always @ (posedge Clk) begin
+		if(R) begin
+			Q <= 4'b0;
+		end
+		else if(En) begin
+			Q <= Q + 1'b1;
+			if(Q == 4'h9)begin
+				Q <= 4'b0;
+			end
+		end
+	end
+endmodule

@@ -1,0 +1,4 @@
+module DRCTC(Rst, PSB, SB, Clock, PSL, SL, A1, A2, A3, GRN, RED);
+
+
+endmodule

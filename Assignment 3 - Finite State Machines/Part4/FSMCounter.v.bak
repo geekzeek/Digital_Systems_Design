@@ -1,0 +1,45 @@
+module FSMCounter(w1, w0, reset, clock, Q);
+	input w1, w0, reset, clock;
+	output reg [3:0]Q = 4'b0000;
+	
+	reg[3:0] Y_Q, Y_D;
+	localparam A = 4'b0000, B = 4'b0001, C = 4'b0010, D = 4'b0011;
+	
+	Y_Q = A;
+	
+	always @ (w1, w0, reset, Y_Q)
+	begin: state_table
+		case(Y_Q)
+			A: if (!w1 && !w0) Y_D = A;
+				if (!w1 && w0) Y_D = B;
+				if (w1 && !w0) Y_D = C;
+				else Y_D = D;
+			B: if (!w1 && !w0) Y_D = A;
+				if (!w1 && w0) Y_D = B;
+				if (w1 && !w0) Y_D = C;
+				else Y_D = D;
+			C: if (!w1 && !w0) Y_D = A;
+				if (!w1 && w0) Y_D = B;
+				if (w1 && !w0) Y_D = C;
+				else Y_D = D;
+			D: if (!w1 && !w0) Y_D = A;
+				if (!w1 && w0) Y_D = B;
+				if (w1 && !w0) Y_D = C;
+				else Y_D = D;
+			default: Y_D = 4'bxxxx;
+		endcase
+		
+		if(reset) Q <= 4'b0000;
+		if(Q < 4'b1001) Q <= 4'b0000;
+		
+		if (Y_Q == B) Q <= Q + 4'b0001;
+		if (Y_Q == C) Q <= Q + 4'b0010;
+		if (Y_Q == D) Q <= Q - 4'b0001;
+		
+	end
+	
+	always @ (posedge clock) begin: state_FFs
+		Y_Q <= Y_D;
+	end
+endmodule
+endmodule

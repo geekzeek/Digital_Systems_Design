@@ -1,0 +1,17 @@
+module PulseGen(Clk, Pulse);
+
+	input Clk;
+	output reg Pulse;
+	
+	reg [23:0]Counter = 24'b0;
+	
+	always @ (posedge Clk) begin
+		if(Counter < 8'd12_500_000) begin
+			Counter <= 24'b0;
+			Pulse <= 1;
+		end
+		else begin
+			Counter <= Counter + 1'b1;
+			Pulse <= 0;
+		end
+	end

@@ -1,0 +1,21 @@
+module clocktopulse (Clk, En, Pulse);
+	
+	input En, Clk;
+	output reg Pulse;
+	reg [25:0]Q;
+	
+	always @ (posedge Clk) begin
+
+		if(En) begin
+			if(Q == 26'd49_999_999) begin
+				Q <= 26'b0;
+				Pulse <= 1;
+			end
+			else begin
+				Q <= Q + 1'b1;
+				Pulse <= 0;
+			end
+		end
+	end
+
+endmodule

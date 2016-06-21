@@ -1,0 +1,117 @@
+module DRCTC( Clock, Reset, PSB, SB, PSL, SL, A1, A2, A3, G, R );
+	input Clock, Reset, PSB, SB;
+	output PSL, SL;
+	output reg A1, A2, A3, G, R;
+	
+	localparam 	Idle = 3'b000,
+					Stage = 3'b001,
+					Amber1 = 3'b010,
+					Amber2 = 3'b011,
+					Amber3 = 3'b100,
+					Green = 3'b101,
+					Red = 3'b110;
+					
+	reg [25:0]counter;
+	reg [2:0]state, next;
+	
+	assign PSL = PSB;
+	assign SL = SB;
+	
+	initial begin
+		counter = 26'b0;
+		A1 = 0;
+		A2 = 0;
+		A3 = 0;
+		G = 0;
+		R = 0;
+		state = Idle;
+	end //initial
+	
+	always @ (posedge Clock) begin
+		if(Reset) begin
+			case(state)
+				Idle: begin
+					if(SB) state = Stage;
+				end
+				Stage: begin
+					if(~SB) begin
+						counter = 26'b0;
+						state = Idle;
+					end
+					else begin
+						counter = counter + 1'b1;
+						if (counter >= 50_000_000) begin
+							counter = 26'b0;
+							state = Amber1;
+						end
+					end
+				end
+				Amber1: begin
+					if(~SB) begin
+						A1 = 0;
+						counter = 26'b0;
+						state = Red;
+					end
+					else begin
+						A1 = 1;
+						counter = counter + 1'b1;
+						if (counter >= 25_000_000) begin
+							A1 = 0;
+							counter = 26'b0;
+							state = Amber2;
+						end
+					end
+				end
+				Amber2: begin
+					if(~SB) begin
+						A2 = 0;
+						counter = 26'b0;
+						state = Red;
+					end
+					else begin
+						A2 = 1;
+						counter = counter + 1'b1;
+						if (counter >= 25_000_000) begin
+							A2 = 0;
+							counter = 26'b0;
+							state = Amber3;
+						end
+					end
+				end
+				Amber3: begin
+					if(~SB) begin
+						A3 = 0;
+						counter = 26'b0;
+						state = Red;
+					end
+					else begin
+						A3 = 1;
+						counter = counter + 1'b1;
+						if (counter >= 25_000_000) begin
+							A3 = 0;
+							counter = 26'b0;
+							state = Green;
+						end
+					end			
+				end
+				Green: begin
+					G = 1;
+				end
+				Red: begin
+					R = 1;
+				end
+				default: state = 3'bxxx;
+				
+			endcase
+		end
+		else begin
+		counter = 26'b0;
+		A1 = 0;
+		A2 = 0;
+		A3 = 0;
+		G = 0;
+		R = 0;
+		state = Idle;
+		end
+	end
+endmodule

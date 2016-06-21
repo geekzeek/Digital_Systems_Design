@@ -1,0 +1,11 @@
+
+State Machine - |Part6|Y_Q
+Name Y_Q.H Y_Q.G Y_Q.F Y_Q.E Y_Q.D Y_Q.C Y_Q.B Y_Q.A 
+Y_Q.A 0 0 0 0 0 0 0 0 
+Y_Q.B 0 0 0 0 0 0 1 1 
+Y_Q.C 0 0 0 0 0 1 0 1 
+Y_Q.D 0 0 0 0 1 0 0 1 
+Y_Q.E 0 0 0 1 0 0 0 1 
+Y_Q.F 0 0 1 0 0 0 0 1 
+Y_Q.G 0 1 0 0 0 0 0 1 
+Y_Q.H 1 0 0 0 0 0 0 1 

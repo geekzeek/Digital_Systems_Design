@@ -1,0 +1,20 @@
+
+State Machine - |LabB|Processor:P|Controller:C|Current
+Name Current.Halt Current.Arith_B Current.Arith_A Current.Store_B Current.Store_A Current.Load_B Current.Load_A Current.NOOP Current.Decode Current.Fetch Current.00000 
+Current.00000 0 0 0 0 0 0 0 0 0 0 0 
+Current.Fetch 0 0 0 0 0 0 0 0 0 1 1 
+Current.Decode 0 0 0 0 0 0 0 0 1 0 1 
+Current.NOOP 0 0 0 0 0 0 0 1 0 0 1 
+Current.Load_A 0 0 0 0 0 0 1 0 0 0 1 
+Current.Load_B 0 0 0 0 0 1 0 0 0 0 1 
+Current.Store_A 0 0 0 0 1 0 0 0 0 0 1 
+Current.Store_B 0 0 0 1 0 0 0 0 0 0 1 
+Current.Arith_A 0 0 1 0 0 0 0 0 0 0 1 
+Current.Arith_B 0 1 0 0 0 0 0 0 0 0 1 
+Current.Halt 1 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |LabB|ButtonSync:BS|State
+Name State.S_A State.S_C State.S_B 
+State.S_A 0 0 0 
+State.S_B 1 0 1 
+State.S_C 1 1 0 

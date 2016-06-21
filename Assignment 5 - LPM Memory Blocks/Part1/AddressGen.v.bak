@@ -1,0 +1,7 @@
+module AddressGen(Clk, Reset, Address);
+	input Clk;
+	input Reset;
+	output reg [7:0] Address;
+	
+	
+endmodule

@@ -1,0 +1,10 @@
+
+State Machine - |DragRace|DRCTC:l1|state
+Name state.Red state.Green state.Amber3 state.Amber2 state.Amber1 state.Stage state.Idle 
+state.Idle 0 0 0 0 0 0 0 
+state.Stage 0 0 0 0 0 1 1 
+state.Amber1 0 0 0 0 1 0 1 
+state.Amber2 0 0 0 1 0 0 1 
+state.Amber3 0 0 1 0 0 0 1 
+state.Green 0 1 0 0 0 0 1 
+state.Red 1 0 0 0 0 0 1 

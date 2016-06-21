@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Zeeshan/Google Drive/S16/TCES 330/HW3/Part2
+vPart2FSM
+Z1 !s110 1462923624
+!i10b 1
+!s100 H=1hFzDP`_WC5Ed^XIV:G3
+IG<Q[m4Vak>TEYHQQb;=eW1
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1462921858
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW3/Part2/work/Part2FSM.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/HW3/Part2/work/Part2FSM.v
+L0 5
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1462923624.824000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW3/Part2/work/Part2FSM.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW3/Part2/work/Part2FSM.v|
+!i113 1
+Z4 o-work work
+n@part2@f@s@m
+vtest_Part2FSM
+R1
+!i10b 1
+!s100 ?Z01n6]9[HcGQU51ijRbd3
+I1C1j0OdlPHo0<8Rg]jZEF3
+R2
+R0
+w1462923593
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW3/Part2/work/test_Part2FSM.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/HW3/Part2/work/test_Part2FSM.v
+L0 8
+R3
+r1
+!s85 0
+31
+!s108 1462923624.876000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW3/Part2/work/test_Part2FSM.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW3/Part2/work/test_Part2FSM.v|
+!i113 1
+R4
+ntest_@part2@f@s@m

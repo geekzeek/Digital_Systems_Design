@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Zeeshan/Google Drive/S16/TCES 330/HW3/Part4
+vFSMCounter
+!s110 1462924411
+!i10b 1
+!s100 6o6c2Gbcee@KjZ1H7DFfA3
+I5^cn_E<]nP^^5Uegoz2E93
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1462921577
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW3/Part4/work/FSMCounter.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/HW3/Part4/work/FSMCounter.v
+L0 5
+Z2 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1462924411.256000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW3/Part4/work/FSMCounter.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW3/Part4/work/FSMCounter.v|
+!i113 1
+Z3 o-work work
+n@f@s@m@counter
+vtest_FSMCounter
+!s110 1462924485
+!i10b 1
+!s100 Lj5d:fCD>1>a2^kiDmKPD0
+IH?@k<]016kJ49<5iJ3Wc@1
+R1
+R0
+w1462924477
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW3/Part4/work/test_FSMCounter.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/HW3/Part4/work/test_FSMCounter.v
+L0 6
+R2
+r1
+!s85 0
+31
+!s108 1462924485.597000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW3/Part4/work/test_FSMCounter.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW3/Part4/work/test_FSMCounter.v|
+!i113 1
+R3
+ntest_@f@s@m@counter

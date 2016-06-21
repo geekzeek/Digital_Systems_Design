@@ -1,0 +1,164 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/simulation/modelsim
+vAddressGen
+Z1 !s110 1463969386
+!i10b 1
+!s100 P2GXjBWL0oC4m88JZ<K3<0
+IhPM8b:k`g7lQJ[G;0a=Q=1
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1463607201
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/AddressGen.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/AddressGen.v
+L0 1
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1463969386.194000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/AddressGen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1|C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/AddressGen.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1}
+n@address@gen
+vBCDto7Seg
+R1
+!i10b 1
+!s100 SlWE3]JAQ0iSeTBai>0Qn3
+IA<49W=2AG@kVkgQ3_i38m2
+R2
+R0
+w1462921577
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/BCDto7Seg.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/BCDto7Seg.v
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1463969385.985000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/BCDto7Seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1|C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/BCDto7Seg.v|
+!i113 1
+R4
+R5
+n@b@c@dto7@seg
+vPart1
+R1
+!i10b 1
+!s100 fi^9]IY[I1Y]_=DZ<GI?V1
+I:ZC1bI=YJ]Z=B5HESIFdn0
+R2
+R0
+w1463607575
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/Part1.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/Part1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1463969386.060000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/Part1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1|C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/Part1.v|
+!i113 1
+R4
+R5
+n@part1
+vPart1ROM
+R1
+!i10b 1
+!s100 Jg;zb_PSQSzOeD>C2S[f^0
+IL<cYU^2ggWlGUSBI1:icA2
+R2
+R0
+w1463603805
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/Part1ROM.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/Part1ROM.v
+L0 40
+R3
+r1
+!s85 0
+31
+!s108 1463969386.104000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/Part1ROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1|C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/Part1ROM.v|
+!i113 1
+R4
+R5
+n@part1@r@o@m
+vPulseGen
+R1
+!i10b 1
+!s100 ;igPM0CI0?=kc:;Ej7?oi3
+IocX3PIm@8Z3Z5P@PfBc:i3
+R2
+R0
+w1463678564
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/PulseGen.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/PulseGen.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1463969386.238000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/PulseGen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1|C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/PulseGen.v|
+!i113 1
+R4
+R5
+n@pulse@gen
+vSystemControl
+R1
+!i10b 1
+!s100 hnU^>5i7<nYCP6_AOh@8j0
+IIT810^IEe:h5AEndCX[R[1
+R2
+R0
+w1463606532
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/SystemControl.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/SystemControl.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1463969386.151000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/SystemControl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1|C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/SystemControl.v|
+!i113 1
+R4
+R5
+n@system@control
+vTestSystemControl
+R1
+!i10b 1
+!s100 zKK`n1[OMkCMF6^CRTY370
+I=8<D@G[;O>J7IGg`7EJWo3
+R2
+R0
+w1463966084
+8C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/TestSystemControl.v
+FC:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/TestSystemControl.v
+L0 7
+R3
+r1
+!s85 0
+31
+!s108 1463969386.284000
+!s107 C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/TestSystemControl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1|C:/Users/Zeeshan/Google Drive/S16/TCES 330/HW5/Part1/TestSystemControl.v|
+!i113 1
+R4
+R5
+n@test@system@control
